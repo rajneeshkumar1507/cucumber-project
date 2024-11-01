@@ -3,10 +3,10 @@ Given('open browser enter simpleform url', () => {
   cy.visit('https://v1.training-support.net/selenium/simple-form');
 });
 When('user enters firstname, lastname, email, contact', () => {
-  cy.get('#firstName').type('Rajneesh');
-  cy.get('#lastName').type('Kumar');
-  cy.get('#email').type('testuser1@gmail.com');
-  cy.get('#number').type('7569335977');
+  cy.get('#firstName').type('Garima');
+  cy.get('#lastName').type('Singh');
+  cy.get('#email').type('testuser5@gmail.com');
+  cy.get('#number').type('9874563210');
 });
 And('user clicks on submit', () => {
   cy.get('input[type="submit"]').click();
